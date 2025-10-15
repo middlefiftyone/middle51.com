@@ -1,0 +1,40 @@
+
+/* Minimal utilities replacing Bootstrap (scoped to used classes) */
+html, body { height: 100%; }
+body {
+  display: flex;
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+  box-shadow: inset 0 0 5rem rgba(0,0,0,.5);
+  margin: 0;
+}
+
+.d-flex { display: flex; }
+.flex-column { flex-direction: column; }
+.h-100 { height: 100%; }
+.justify-content-center { justify-content: center; }
+.mx-auto { margin-left: auto; margin-right: auto; }
+.mb-auto { margin-bottom: auto; }
+.mt-auto { margin-top: auto; }
+.p-3 { padding: 1rem; }
+.text-center { text-align: center; }
+
+/* Nav basics */
+.nav { display: flex; flex-wrap: wrap; align-items: center; }
+.nav-link { display: inline-block; padding: .5rem 1rem; color: rgba(255,255,255,.8); text-decoration: none; }
+.nav-link:hover, .nav-link:focus { color: #fff; text-decoration: underline; }
+
+/* Buttons */
+.btn { display: inline-block; font-weight: 400; text-align: center; white-space: nowrap; vertical-align: middle; user-select: none; border: 1px solid transparent; padding: .375rem .75rem; line-height: 1.5; border-radius: .25rem; text-decoration: none; }
+.btn-sm { padding: .25rem .5rem; font-size: .875rem; border-radius: .2rem; }
+.btn-secondary { color: #333; background-color: #fff; border-color: #fff; }
+.btn-secondary:hover, .btn-secondary:focus { color: #333; background-color: #e6e6e6; border-color: #e6e6e6; }
+
+/* Grid-ish helpers used by the template */
+.cover-container { max-width: 42em; }
+.masthead { margin-bottom: 2rem; }
+.masthead-brand { margin-bottom: 0; }
+.mastfoot { margin-top: 2rem; color: rgba(255,255,255,.5); }
+
+/* Keep template's overall look compatible with cover.css */
+.inner { padding: 2rem; }
